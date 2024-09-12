@@ -36,11 +36,11 @@ function showList(array) {
 }
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  // Filtramos los elementos de tipo String y los ordenamos alfabéticamente
+  // Filtra los elementos de tipo String y los ordenamos alfabéticamente
   const filteredAndSortedArray = strangeArray
-    .filter((element) => typeof element === "string") // Filtrar los elementos de tipo string
-    .sort(); // Ordenar alfabéticamente
+    .filter((element) => typeof element === "string") // Filtra los elementos de tipo string
+    .sort(); // Ordena alfabéticamente
 
-  // Mostrar el array filtrado y ordenado
+  // Muestra el array filtrado y ordenado
   showList(filteredAndSortedArray);
 });
